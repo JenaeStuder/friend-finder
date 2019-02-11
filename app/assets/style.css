@@ -14,22 +14,25 @@ h1{
     font-weight: bold;
 }
 #survey{
-    background-color:
-    color: white;
+    color:rgb(59, 63, 73);
+    background-color:rgb(255, 255, 255, .7);
 }
-#startBtn{
+h4{
+    font-size: 25px;
+      
+}
+
+.btn-lg{
     font-family: 'Open Sans Condensed', sans-serif;
-    background-color: darkgrey;
+    background-color: rgb(59, 63, 73);
     width: 20%;
     color: white;
 }
-/* #link{
+ #link a:link{
     color:white;
     font-family: 'Archivo Narrow', sans-serif;
-    
-
-} */
-a:link{
-    color:rgb(59, 63, 73);
+} 
+/* a:link {
+    color:white;
     font-family: 'Archivo Narrow', sans-serif;
-}
+} */

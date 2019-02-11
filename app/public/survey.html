@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../assets/reset.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
     integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -12,8 +13,9 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="../assets/style.css">
   <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Allan|Archivo+Narrow|Boogaloo|Open+Sans+Condensed:300" rel="stylesheet">
-  <title>Friend Finder</title>
+  <link href="https://fonts.googleapis.com/css?family=Allan|Archivo+Narrow|Boogaloo|Open+Sans+Condensed:300"
+    rel="stylesheet">
+  <title>Friend Finder Survey</title>
 </head>
 
 <body>
@@ -27,46 +29,290 @@
     <div class="container" id="survey">
       <div class="row">
         <h3>Answer all questions on a scale of 1-5 with 1 being strongly agree and 5 being strongly disagree</h3>
-        <div class="col">
-          <h4>Large groups are more fun than small groups</h4>
-
-
+        <br>
+        <div class="row">
+          <h3><strong>About You</strong></h3>
+          <h4>Name (Required)</h4>
+          <input type="text" id="name" class="form-control" required>
         </div>
-        <div class="col"> co</div>
-        <div class="w-100"></div>
-        <div class="col">
-          <div>
-            <h4>Hiking is life</h4>
-
+        <div class="row">
+          <h4>Link to Photo Image (Required)</h4>
+          <input type="text" id="photo" class="form-control" required>
+          <hr>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-1"></div>
+          <div class="col">
+            <h3>Question 1</h3>
+          </div>
+          <div class="col-1"></div>
+          <div class="w-100"></div>
+          <div class="col-1"></div>
+          <div class="col">
+            <h4>Your mind is always buzzing with unexplored ideas and plans.</h4>
+          </div>
+          <div class="col-1"></div>
+          <div class="w-100"></div>
+          <div class="col-1"></div>
+          <div class="col">
+            <select class="chosen-select" id="q1">
+              <option value=""></option>
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5 (Strongly Agree)</option>
+            </select>
           </div>
         </div>
-        <div class="col">Co2</div>
-        <div class="w-100"></div>
-        <div class="col">
-          <h4>Alcohol is a must for a night out.</h4>
+        <br>
+        <div class="row">
+          <div class="col-1"></div>
+          <div class="col">
+            <h3>Question 2</h3>
+          </div>
+          <div class="col-1"></div>
+          <div class="w-100"></div>
+          <div class="col-1"></div>
+          <div class="col">
+            <h4>Generally speaking, you rely more on your experience than your imagination.</h4>
+          </div>
+          <div class="col-1"></div>
+          <div class="w-100"></div>
+          <div class="col-1"></div>
+          <div class="col">
+            <select class="chosen-select" id="q2">
+              <option value=""></option>
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5 (Strongly Agree)</option>
+            </select>
+          </div>
         </div>
-    <div class="col">Co3</div>
-    <div class="w-100"></div>
-    <div class="col">Column</div>
-    <div class="col">Co4</div>
-    <div class="w-100"></div>
-    <div class="col">Column</div>
-    <div class="col">Co5</div>
-    <div class="w-100"></div>
-    <div class="col">Column</div>
-    <div class="col">Co6</div>
-    <div class="w-100"></div>
-    <div class="col">Column</div>
-    <div class="col">Co7</div>
-    <div class="w-100"></div>
-    <div class="col">Column</div>
-    <div class="col">Co8</div>
-    <div class="w-100"></div>
-    <div class="col">Column</div>
-    <div class="col">Co9</div>
-    <div class="w-100"></div>
-    <div class="col">Column</div>
-    <div class="col">Co10</div>
+        <br>
+        <div class="row">
+          <div class="col-1"></div>
+          <div class="col">
+            <h3>Question 3</h3>
+          </div>
+          <div class="col-1"></div>
+          <div class="w-100"></div>
+          <div class="col-1"></div>
+          <div class ="col">
+          <h4>You find it easy to stay relaxed and focused even when there is some pressure.</h4>
+        </div>
+          <div class="col-1"></div>
+          <div class="w-100"></div>
+          <div class="col-1"></div>
+          <div class="col">
+            <select class="chosen-select" id="q3">
+              <option value=""></option>
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5 (Strongly Agree)</option>
+            </select>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-1"></div>
+          <div class="col">
+            <h3>Question 4</h3>
+          </div>
+          <div class="col-1"></div>
+          <div class="w-100"></div>
+          <div class="col-1"></div>
+          <div class= "col">
+          <h4>You rarely do something just out of sheer curiosity.</h4>
+        </div>
+          <div class="col-1"></div>
+          <div class="w-100"></div>
+          <div class="col-1"></div>
+          <div class="col">
+            <select class="chosen-select" id="q4">
+              <option value=""></option>
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5 (Strongly Agree)</option>
+            </select>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-1"></div>
+          <div class="col">
+            <h3>Question 5</h3>
+          </div>
+          <div class="col-1"></div>
+          <div class="w-100"></div>
+          <div class="col-1"></div>
+          <div class = "col">
+          <h4>People can rarely upset you.</h4>
+          </div>
+          <div class="col-1"></div>
+          <div class="w-100"></div>
+          <div class="col-1"></div>
+          <div class="col">
+            <select class="chosen-select" id="q5">
+              <option value=""></option>
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5 (Strongly Agree)</option>
+            </select>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-1"></div>
+          <div class="col">
+            <h3>Question 6</h3>
+          </div>
+          <div class="col-1"></div>
+          <div class="w-100"></div>
+          <div class="col-1"></div>
+          <div class = "col">
+          <h4>It is often difficult for you to relate to other people’s feelings.</h4>
+          </div>
+          <div class="col-1"></div>
+          <div class="w-100"></div>
+          <div class="col-1"></div>
+          <div class="col">
+            <select class="chosen-select" id="q6">
+              <option value=""></option>
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5 (Strongly Agree)</option>
+            </select>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-1"></div>
+          <div class="col">
+            <h3>Question 7</h3>
+          </div>
+          <div class="col-1"></div>
+          <div class="w-100"></div>
+          <div class="col-1"></div>
+          <div class = "col">
+          <h4>In a discussion, truth should be more important than people’s sensitivities.</h4>
+          </div>
+          <div class="col-1"></div>
+          <div class="w-100"></div>
+          <div class="col-1"></div>
+          <div class="col">
+            <select class="chosen-select" id="q7">
+              <option value=""></option>
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5 (Strongly Agree)</option>
+            </select>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-1"></div>
+          <div class="col">
+            <h3>Question 8</h3>
+          </div>
+          <div class="col-1"></div>
+          <div class="w-100"></div>
+          <div class="col-1"></div>
+          <div class = "col">
+          <h4>You rarely get carried away by fantasies and ideas.</h4>
+          </div>
+          <div class="col-1"></div>
+          <div class="w-100"></div>
+          <div class="col-1"></div>
+          <div class="col">
+            <select class="chosen-select" id="q8">
+              <option value=""></option>
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5 (Strongly Agree)</option>
+            </select>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-1"></div>
+          <div class="col">
+            <h3>Question 9</h3>
+          </div>
+          <div class="col-1"></div>
+          <div class="w-100"></div>
+          <div class="col-1"></div>
+          <div class = "col">
+          <h4>You think that everyone’s views should be respected regardless of whether they are supported by facts or
+            not.</h4>
+          </div>
+          <div class="col-1"></div>
+          <div class="w-100"></div>
+          <div class="col-1"></div>
+          <div class="col">
+            <select class="chosen-select" id="q9">
+              <option value=""></option>
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5 (Strongly Agree)</option>
+            </select>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-1"></div>
+          <div class="col">
+            <h3>Question 10</h3>
+          </div>
+          <div class="col-1"></div>
+          <div class="w-100"></div>
+          <div class="col-1"></div>
+          <div class = "col">
+          <h4>You feel more energetic after spending time with a group of people.</h4>
+          </div>
+          <div class="col-1"></div>
+          <div class="w-100"></div>
+          <div class="col-1"></div>
+          <div class="col">
+            <select class="chosen-select" id="q10">
+              <option value=""></option>
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5 (Strongly Agree)</option>
+            </select>
+          </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+          <div class="col-1"></div>
+          <div class="col">
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle"
+                aria-hidden="true"></i>
+              Submit</button>
+          </div>
+          <hr>
+        </div>
       </div>
     </div>
 
@@ -74,19 +320,122 @@
 
     <footer class="footer">
       <div class="container">
-          <a href="/api/Friends">API Friends List</a> | 
+        <div id="link">
+          <a href="/api/Friends">API Friends List</a> |
           <a href="">Github Repo</a>
+        </div>
       </div>
     </footer>
 
   </div>
+  <!-- Modal -->
+  <div id="results-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
 
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2 class="modal-title"><strong>Best Match</strong></h2>
+        </div>
+        <div class="modal-body">
+          <h2 id="match-name"></h2>
+          <img id="match-img" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg" alt="">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <script src="../assets/backstretch.js"></script>
+  <script>
+    $(document).ready(function () {
+      $.backstretch("../assets/images/adult-casual-clothes-296881.jpg");
+    });
+  </script>
+  <script type="text/javascript">
+    let config = {
+      ".chosen-select": {},
+      ".chosen-select-deselect": {
+        allow_single_deselect: true
+      },
+      ".chosen-select-no-single": {
+        disable_search_threshold: 10
+      },
+      ".chosen-select-no-results": {
+        no_results_text: "Oops, nothing found!"
+      },
+      ".chosen-select-width": {
+        width: "95%"
+      }
+    };
+
+    for (var selector in config) {
+      $(selector).chosen(config[selector]);
+    }
+
+    // Capture the form inputs
+    $("#submit").on("click", function (event) {
+      event.preventDefault();
+
+      // Form validation
+      function validateForm() {
+        let isValid = true;
+        $(".form-control").each(function () {
+          if ($(this).val() === "") {
+            isValid = false;
+          }
+        });
+
+        $(".chosen-select").each(function () {
+
+          if ($(this).val() === "") {
+            isValid = false;
+          }
+        });
+        return isValid;
+      }
+
+      // If all required fields are filled
+      if (validateForm()) {
+        // Create an object for the user"s data
+        let userData = {
+          name: $("#name").val(),
+          photo: $("#photo").val(),
+          scores: [
+            $("#q1").val(),
+            $("#q2").val(),
+            $("#q3").val(),
+            $("#q4").val(),
+            $("#q5").val(),
+            $("#q6").val(),
+            $("#q7").val(),
+            $("#q8").val(),
+            $("#q9").val(),
+            $("#q10").val()
+          ]
+        };
+
+        // AJAX post the data to the friends API.
+        $.post("/api/friends", userData, function (data) {
+
+          // Grab the result from the AJAX post so that the best match's name and photo are displayed.
+          $("#match-name").text(data.name);
+          $("#match-img").attr("src", data.photo);
+
+          // Show the modal with the best match
+          $("#results-modal").modal("toggle");
+
+        });
+      } else {
+        alert("Please fill out all fields before submitting!");
+      }
+    });
+  </script>
 </body>
-<script src="../assets/backstretch.js"></script>
-<script>
-  $(document).ready(function () {
-    $.backstretch("../assets/images/adult-casual-clothes-296881.jpg");
-  });
-</script>
 
 </html>
