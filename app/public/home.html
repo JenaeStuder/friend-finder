@@ -1,36 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-<link rel="stylesheet" type="text/css" href="../assets/style.css">
+    <link rel="stylesheet" type="text/css" href="../assets/style.css">
     <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Allan|Archivo+Narrow|Boogaloo|Open+Sans+Condensed:300"
+        rel="stylesheet">
     <title>Friend Finder</title>
 </head>
+
 <body>
-    <h1>Friend Finder</h1>
+    <!-- <h1>Friend Finder</h1> -->
+    <br>
     <div>
+        <div class="containter">
+            <div class="jumbotron">
+                <h1 class="display-4">Friend Finder</h1>
+                <p class="lead">Welcome to the customized application that allows you to find your new bestie.</p>
+                <hr class="my-4">
+                <p>
+                    Click on the button to take our survey.
+                </p>
+                <a id="startBtn" class="btn btn-primary btn-lg" href="survey.html" role="button">Get Started</a>
+            </div>
+        </div>
 
 
 
         <footer class="footer">
             <div class="container">
-              <p><a href="/api/Friends">API Friends List</a> | <a href="">Github Repo</a>
+                <p>
+                    <a href="/api/Friends">API Friends List</a> |
+                    <a href="https://github.com/">Github Repo</a>
+                </p>
             </div>
-          </footer>
-      
+        </footer>
+
     </div>
-    <script src="app/assets/backstretch.js"></script>
+    <script src="../assets/backstretch.js"></script>
     <script>
         $(document).ready(function () {
-               $.backstretch("app/assets/images/backlit-bright-dawn-697243.jpg");
+            $.backstretch("../assets/images/backlit-bright-dawn-697243.jpg");
         });
-       </script>
-   
+    </script>
+
 </body>
+
 </html>

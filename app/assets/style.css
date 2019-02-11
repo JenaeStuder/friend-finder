@@ -1,4 +1,35 @@
+/* font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Archivo Narrow', sans-serif;
+font-family: 'Boogaloo', cursive;
+font-family: 'Allan', cursive; */
+
+.jumbotron{
+    text-align: center;
+    border: 10%, 20%;
+    background-color: rgb(209, 188, 130, .5);
+}
 h1{
-    color: pink;
+    font-family: 'Boogaloo', cursive;
+    color:rgb(59, 63, 73);
     font-weight: bold;
+}
+#survey{
+    background-color:
+    color: white;
+}
+#startBtn{
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: darkgrey;
+    width: 20%;
+    color: white;
+}
+/* #link{
+    color:white;
+    font-family: 'Archivo Narrow', sans-serif;
+    
+
+} */
+a:link{
+    color:rgb(59, 63, 73);
+    font-family: 'Archivo Narrow', sans-serif;
 }
