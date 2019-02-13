@@ -14,21 +14,32 @@ h1{
     font-weight: bold;
 }
 #survey{
+    font-family: 'Open Sans Condensed', sans-serif;
     color:rgb(59, 63, 73);
     background-color:rgb(255, 255, 255, .7);
 }
-h4{
-    font-size: 25px;
-      
-}
+.chosen-select{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:rgb(59, 63, 73);
 
+}
+option{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:rgb(59, 63, 73);
+
+}
 .btn-lg{
     font-family: 'Open Sans Condensed', sans-serif;
     background-color: rgb(59, 63, 73);
-    width: 20%;
+    width: 100%;
     color: white;
+    margin: 10%;
 }
- #link a:link{
+/* .btn{
+    text-align: center;
+    width:100%;
+} */
+a:link{
     color:white;
     font-family: 'Archivo Narrow', sans-serif;
 } 
@@ -36,3 +47,9 @@ h4{
     color:white;
     font-family: 'Archivo Narrow', sans-serif;
 } */
+#name{
+    width: 100%;
+}
+#photo{
+    width: 110%;
+}
