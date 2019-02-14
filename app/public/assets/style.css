@@ -31,9 +31,9 @@ option{
 .btn-lg{
     font-family: 'Open Sans Condensed', sans-serif;
     background-color: rgb(59, 63, 73);
-    width: 100%;
+    /* width: 100%; */
     color: white;
-    margin: 10%;
+    /* margin: 10%; */
 }
 /* .btn{
     text-align: center;
@@ -47,9 +47,9 @@ a:link{
     color:white;
     font-family: 'Archivo Narrow', sans-serif;
 } */
-#name{
+/* #name{
     width: 100%;
 }
 #photo{
     width: 110%;
-}
+} */

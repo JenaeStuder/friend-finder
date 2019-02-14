@@ -29,7 +29,8 @@
     <div class="container" id="survey">
       <div class="row">
         <h3>Answer all questions on a scale of 1-5 with 1 being strongly agree and 5 being strongly disagree</h3>
-        <br>
+        
+        <form role="form">
         <div class="row">
           <div class="col-1"></div>
           <div class="col">
@@ -359,6 +360,7 @@
             <!-- Submit Button -->
             <button type="submit" class="btn-lg" id="submit">Submit</button>
           </div>
+        </form>
           <hr>
         </div>
       </div>
@@ -377,10 +379,10 @@
 
   </div>
   <!-- Modal -->
-  <div id="results-modal" class="modal fade" role="dialog">
+  <!-- <div id="results-modal" class="modal fade" role="dialog">
     <div class="modal-dialog">
 
-      <!-- Modal content-->
+       Modal content
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -396,8 +398,10 @@
       </div>
 
     </div>
-  </div>
+  </div>  -->
+</body>
 
+</html>
 
   <script src="assets/backstretch.js"></script>
   <script>
@@ -406,6 +410,7 @@
     });
   </script>
   <script type="text/javascript">
+
     let config = {
       ".chosen-select": {},
       ".chosen-select-deselect": {
@@ -467,7 +472,7 @@
             $("#q10").val()
           ]
         };
-
+console.log(userEntry);
         // AJAX post the data to the friends API.
         $.post("/api/friends", userEntry, function (data) {
 
@@ -484,6 +489,3 @@
       }
     });
   </script>
-</body>
-
-</html>
